@@ -1,0 +1,9 @@
+1. Extract all tables from every page all_tables
+2. Extract list (in most compact way) [1 4 7 10 15 20 23 ]
+3. Remove 23 intelligently from the above extracted list and also add this 23 to the next table so that description is available to every cell
+DONE
+4. Now The only thing remaining is to apply the max_filter() to get the appropriate description of every cell
+5. Match the coordinates of every cell with the corresponding original coordinates
+6. Create a dictionary kind of thing to match every Excel dict's value to its corresponding place inside Py Dict to change the .docx file
+7. Generate the PDF of this docx file
+8. Print to see the results for yourself   
